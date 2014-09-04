@@ -1,0 +1,17 @@
+Source: ospow-dnsbl-proxy
+Section: unknown
+Priority: extra
+Maintainer: root <gcolangelo@ospow.com>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev, libevent-dev (>= 2.0.0), libglib2.0-dev (>=2.10), libpcre3-dev
+Standards-Version: 3.8.4
+Homepage: http://ospow.com
+
+Package: ospow-dnsbl-proxy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Ospow DNSBL Proxy Server
+ A lightweight, performant DNSBL Proxy Server written in C using libevent.
+ Implements:
+  _ A cache mechanism to avoid useless queries
+  _ Direct interrogation of DNSBL servers
+  _ TXT record to get where IP is listed:

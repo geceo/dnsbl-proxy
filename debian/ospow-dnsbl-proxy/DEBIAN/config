@@ -1,0 +1,11 @@
+#!/bin/sh 
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+# Zone
+db_reset dnsbl-proxy/zone
+db_input high dnsbl-proxy/zone || true
+
+db_go
+

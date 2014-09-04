@@ -1,0 +1,23 @@
+ospow-dnsbl-proxy (2.3) unstable; urgency=low
+
+  * Correct memory leaks
+
+ -- Gérald COLANGELO <gcolangelo@ospow.com>  Wed, 03 Apr 2013 11:01:27 +0100
+
+ospow-dnsbl-proxy (2.2) unstable; urgency=low
+
+  * Correct bugs, lot of !
+
+ -- Gérald COLANGELO <gcolangelo@ospow.com>  Wed, 03 Apr 2013 3:41:28 +0100
+
+ospow-dnsbl-proxy (2.1) unstable; urgency=low
+
+  * Correct timeout bug
+
+ -- Gérald COLANGELO <gcolangelo@ospow.com>  Thu, 07 Feb 2013 13:58:14 +0100
+
+ospow-dnsbl-proxy (2.0) unstable; urgency=low
+
+  * New version rewritten in C.
+
+ -- Gérald COLANGELO <gcolangelo@ospow.com>  Thu, 31 Jan 2013 19:11:47 +0100
