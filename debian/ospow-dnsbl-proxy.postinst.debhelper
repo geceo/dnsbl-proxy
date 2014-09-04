@@ -1,8 +1,0 @@
-# Automatically added by dh_installinit
-if [ -x "/etc/init.d/ospow-dnsbl-proxy" ]; then
-	if [ ! -e "/etc/init/ospow-dnsbl-proxy.conf" ]; then
-		update-rc.d ospow-dnsbl-proxy defaults >/dev/null
-	fi
-	invoke-rc.d ospow-dnsbl-proxy start || exit $?
-fi
-# End automatically added section

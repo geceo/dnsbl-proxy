@@ -1,4 +1,0 @@
-Template: dnsbl-proxy/zone
-Type: string
-Default: rbl.<yourdomain>
-Description: DNS Zone that dnsbl-proxy will serve RBL records
